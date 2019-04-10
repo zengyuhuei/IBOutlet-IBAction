@@ -12,6 +12,8 @@
 		49F0813B225CBA940086E48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F08139225CBA940086E48D /* Main.storyboard */; };
 		49F0813D225CBA950086E48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F0813C225CBA950086E48D /* Assets.xcassets */; };
 		49F08140225CBA950086E48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F0813E225CBA950086E48D /* LaunchScreen.storyboard */; };
+		49F08148225CBE1C0086E48D /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F08147225CBE1C0086E48D /* SharpImageView.swift */; };
+		49F0814A225CC7170086E48D /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F08149225CC7170086E48D /* startViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		49F0813C225CBA950086E48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F0813F225CBA950086E48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49F08141225CBA950086E48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F08147225CBE1C0086E48D /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		49F08149225CC7170086E48D /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				49F08135225CBA940086E48D /* AppDelegate.swift */,
 				49F08137225CBA940086E48D /* ViewController.swift */,
 				49F08139225CBA940086E48D /* Main.storyboard */,
+				49F08149225CC7170086E48D /* startViewController.swift */,
+				49F08147225CBE1C0086E48D /* SharpImageView.swift */,
 				49F0813C225CBA950086E48D /* Assets.xcassets */,
 				49F0813E225CBA950086E48D /* LaunchScreen.storyboard */,
 				49F08141225CBA950086E48D /* Info.plist */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F08138225CBA940086E48D /* ViewController.swift in Sources */,
+				49F0814A225CC7170086E48D /* startViewController.swift in Sources */,
+				49F08148225CBE1C0086E48D /* SharpImageView.swift in Sources */,
 				49F08136225CBA940086E48D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
